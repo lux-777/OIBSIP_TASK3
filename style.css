@@ -40,7 +40,10 @@
     height: 1em;
     font-weight: bold;
   }
-  button {
+  .button {
+    position: relative;
+    left: 514px;
+    bottom: 538px;
     width: 200px;
     margin: 0 30px;
     padding: 10px 30px;
