@@ -19,7 +19,7 @@
     <link rel="icon" href ="img/thermometer.jpg" type="img/jpg">
 
     
-    <script src="js/script.js" defer></script>
+    <script src="script.js" defer></script>
     <style>
         p{
             margin-top:350px;
@@ -33,17 +33,21 @@
 
     <header class="hub">
         
+        
             <main style="color:rgb(223, 223, 223)">TEMPERATURE CONVERTER</main> 
 
             <form>
                 <label style="color:aliceblue" for="converter">Convert <span class="C">°C</span> to <span class="F">°F</span></label> 
             </form>
+           
     
             <form>
                 <input type="text" id="converter" placeholder="°C">
+                
             </form>
+            <p class="result"></p>
     </header>
-    <p class="result"></p>
+   
     <div class="button" style="position: relative; left: 500px;bottom: 335px;">
         <button class="convertButton">Convert</button>
         <button class="resetButton">Reset</button>
