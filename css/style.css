@@ -1,0 +1,11 @@
+body{
+    background-image: url('../img/back.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.hub{
+    margin:240px;
+    text-align:center;
+    padding:10px;
+}
