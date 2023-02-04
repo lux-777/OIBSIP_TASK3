@@ -10,13 +10,13 @@ const swap = () => {
     if (C.innerHTML === '°C') {
         C.innerHTML = '°F';
         F.innerHTML = '°C';
-        document.title = "Convert °F to °C";  
+        document.main = "Convert °F to °C";  
         converter.placeholder = "°F";
 
     } else {
         F.innerHTML = '°F';
         C.innerHTML = '°C';
-        document.title = "Convert °C to °F"; 
+        document.main = "Convert °C to °F"; 
         converter.placeholder = "°C";
     };
 };
